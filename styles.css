@@ -1,2 +1,37 @@
 
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.size-chart {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.size-chart th,
+.size-chart td {
+    border: 1px solid #555;
+    padding: 5px;
+    text-align: left;
+}
+
+.size-chart thead {
+    background-color: #c6533e;
+    color: white;
+}
+
+.size-chart tbody tr:first-child {
+    background-color: #e8b1a5;
+}
+
+.size-chart tbody tr:nth-child(2) {
+    background-color: #f5f5f5;
+}
+
+.size-chart tbody tr:last-child {
+    background-color: #d9d9d9;
+}
+
 /* Your CSS Code here. */
